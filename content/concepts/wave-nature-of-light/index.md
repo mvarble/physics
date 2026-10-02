@@ -1,4 +1,6 @@
-# Wave Nature of Light
+---
+title: Wave Nature of Light
+---
 
 Light is an electromagnetic wave: oscillating electric and magnetic fields that propagate through space at speed $c \approx 3 \times 10^8 \text{ m/s}$ in vacuum. This wave model explains a wide range of optical phenomena that a particle model cannot — the colors of soap films and oil slicks, the polarization of reflected glare, the continuous spectrum from radio waves to gamma rays, and the interference fringes seen whenever coherent light is split and recombined. The wave description is the foundation of classical optics.
 
@@ -70,7 +72,7 @@ $$
 	\tilde{E}(r) = \frac{E_0}{r} \, e^{ikr}
 $$
 
-omitting the common time factor $e^{-i\omega t}$. The $e^{ikr}/r$ form captures both the $1/r$ amplitude decay and the $kr$ phase accumulation with distance. This expression is the building block for [Huygens' principle](./huygens-principle.md), which decomposes an arbitrary wavefront into a collection of such spherical wavelets.
+omitting the common time factor $e^{-i\omega t}$. The $e^{ikr}/r$ form captures both the $1/r$ amplitude decay and the $kr$ phase accumulation with distance. This expression is the building block for [Huygens' principle](../huygens-principle/), which decomposes an arbitrary wavefront into a collection of such spherical wavelets.
 
 ## The wave equation
 

@@ -1,6 +1,9 @@
-# Huygens' Principle
+---
+title: Huygens' Principle
+depends_on: [wave-nature-of-light]
+---
 
-This document builds on [Wave nature of light](./wave-nature-of-light.md).
+This document builds on [Wave nature of light](../wave-nature-of-light/).
 
 Huygens' principle is a geometric and mathematical method for predicting how a wave propagates. Proposed by Christiaan Huygens in 1678 in his *Traité de la lumière*, it provides a recipe: given the shape and amplitude of a wavefront at one instant, the wavefront at any later instant can be constructed by treating every point on the original front as a source of secondary wavelets and finding their envelope. This principle is remarkable because it reduces the complex problem of wave propagation to a straightforward geometric construction — and it works for all waves, not just light. Sound waves, water waves, and seismic waves all obey Huygens' principle.
 
@@ -34,7 +37,7 @@ $$
 	\tilde{E}(P) \propto \iint_{\text{wavefront}} \frac{e^{ikr}}{r} \, K(\theta) \, dS
 $$
 
-where $r$ is the distance from each point on the wavefront to $P$, and the integral runs over the unobstructed portion of the wavefront. The factor $e^{ikr}/r$ is the spherical wavelet from the [wave nature of light](./wave-nature-of-light.md): it captures both the $1/r$ amplitude decay and the $kr$ phase accumulation. The function $K(\theta) = \frac{1}{2}(1 + \cos\theta)$ is the **obliquity factor**, which weights each wavelet by the angle $\theta$ between its propagation direction and the outward normal to the wavefront. This factor equals $1$ in the forward direction and $0$ in the backward direction, eliminating the backward-propagating wave that the naive principle would otherwise predict.
+where $r$ is the distance from each point on the wavefront to $P$, and the integral runs over the unobstructed portion of the wavefront. The factor $e^{ikr}/r$ is the spherical wavelet from the [wave nature of light](../wave-nature-of-light/): it captures both the $1/r$ amplitude decay and the $kr$ phase accumulation. The function $K(\theta) = \frac{1}{2}(1 + \cos\theta)$ is the **obliquity factor**, which weights each wavelet by the angle $\theta$ between its propagation direction and the outward normal to the wavefront. This factor equals $1$ in the forward direction and $0$ in the backward direction, eliminating the backward-propagating wave that the naive principle would otherwise predict.
 
 Gustav Kirchhoff later derived this integral rigorously from the wave equation using Green's theorem, confirming that Huygens' principle is not merely a heuristic but an exact consequence of the wave equation (in three dimensions, for monochromatic waves).
 
@@ -44,7 +47,7 @@ To see Huygens' principle at work in a concrete situation, consider a plane wave
 
 At a point $P$ directly ahead of the slit center, all wavelets travel the same distance (in the limit of a distant screen) and arrive in phase. Their amplitudes add constructively, producing a bright region. At a point $P$ displaced to one side, wavelets from different positions across the slit travel different distances. Wavelets from the far side of the slit travel farther than wavelets from the near side, and therefore arrive with a phase lag. When the path difference across the full slit width is exactly one wavelength $\lambda$, the wavelet from the top of the slit is one full wavelength ahead of the wavelet from the bottom. The wavelet from the midpoint is half a wavelength ahead. Pairing each wavelet in the top half with a wavelet half a slit-width below it, every pair is separated by a half-wavelength path difference and interferes destructively. The total amplitude at $P$ is zero — a dark fringe.
 
-This qualitative reasoning captures the essential mechanism: Huygens' principle converts the problem of wave propagation past an obstacle into a superposition of spherical wavelets, and the path-length differences among those wavelets determine where the result is bright and where it is dark. The full quantitative treatment of this calculation — integrating over the slit and deriving the complete intensity pattern — is the subject of [diffraction of light](./diffraction-of-light.md).
+This qualitative reasoning captures the essential mechanism: Huygens' principle converts the problem of wave propagation past an obstacle into a superposition of spherical wavelets, and the path-length differences among those wavelets determine where the result is bright and where it is dark. The full quantitative treatment of this calculation — integrating over the slit and deriving the complete intensity pattern — is the subject of [diffraction of light](../diffraction-of-light/).
 
 ## Huygens' principle in three dimensions
 
@@ -56,4 +59,4 @@ In two dimensions (surface waves on a pond, for instance), the analogous constru
 
 Huygens' principle occupies a central place in wave physics. It provides a unified geometric framework for understanding reflection, refraction, and diffraction — phenomena that geometric optics treats as separate rules. It was the key insight that allowed Fresnel to predict and explain diffraction patterns quantitatively, settling the long debate between the wave and particle theories of light in the wave theory's favor. In modern physics, the principle generalizes into the mathematical machinery of Green's functions and propagators, which are the foundation of quantum field theory and the theory of wave scattering.
 
-See also: [Diffraction of light](./diffraction-of-light.md)
+See also: [Diffraction of light](../diffraction-of-light/)

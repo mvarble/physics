@@ -1,6 +1,9 @@
-# Diffraction of Light
+---
+title: Diffraction of Light
+depends_on: [wave-nature-of-light, huygens-principle]
+---
 
-This document builds on [Wave nature of light](./wave-nature-of-light.md) and [Huygens' principle](./huygens-principle.md).
+This document builds on [Wave nature of light](../wave-nature-of-light/) and [Huygens' principle](../huygens-principle/).
 
 Diffraction is the departure of light from straight-line propagation when it encounters an obstacle or aperture whose size is comparable to its wavelength. Where geometric optics predicts sharp shadows and well-defined beams, diffraction produces characteristic patterns of bright and dark fringes that spread well beyond the geometric shadow. These patterns are a direct consequence of the wave nature of light, and they impose a fundamental limit on the resolution of every optical system, from the human eye to the largest telescope.
 
@@ -60,7 +63,7 @@ Between the minima lie weaker **secondary maxima**, located approximately where 
 
 ### A numerical example
 
-Green light of wavelength $\lambda = 532\text{ nm}$ passing through a slit of width $a = 0.1\text{ mm}$, with an observation screen at $L = 1\text{ m}$, produces a first minimum at $\sin\theta = \lambda / a = 5.32 \times 10^{-3}$, corresponding to $\theta \approx 0.30°$. The displacement on the screen is $y = L\tan\theta \approx 5.3\text{ mm}$ from the center, so the central bright fringe spans about $10.6\text{ mm}$ — over a hundred times wider than the $0.1\text{ mm}$ slit. The Fresnel number is $F = a^2/(\lambda L) \approx 0.019 \ll 1$, confirming the Fraunhofer approximation is appropriate.
+Green light of wavelength $\lambda = 532\text{nm}$ passing through a slit of width $a = 0.1\text{mm}$, with an observation screen at $L = 1\text{m}$, produces a first minimum at $\sin\theta = \lambda / a = 5.32 \times 10^{-3}$, corresponding to $\theta \approx 0.30°$. The displacement on the screen is $y = L\tan\theta \approx 5.3\text{mm}$ from the center, so the central bright fringe spans about $10.6\text{mm}$ — over a hundred times wider than the $0.1\text{mm}$ slit. The Fresnel number is $F = a^2/(\lambda L) \approx 0.019 \ll 1$, confirming the Fraunhofer approximation is appropriate.
 
 ## Diffraction by a circular aperture
 
@@ -78,7 +81,7 @@ $$
 
 This angular radius defines the **Rayleigh criterion** for resolution: two point sources can be distinguished only when their angular separation exceeds $\theta_R = 1.22\lambda / D$. This is the reason larger telescope mirrors yield sharper images, and it establishes a fundamental, inescapable limit on the resolving power of any optical instrument.
 
-As a concrete illustration, the pupil of the human eye in daylight has a diameter of roughly $D \approx 5\text{ mm}$. For green light ($\lambda = 532\text{ nm}$), the Rayleigh criterion gives $\theta_R \approx 1.3 \times 10^{-4}\text{ rad} \approx 0.007°$. At a comfortable reading distance of $25\text{ cm}$, this corresponds to a minimum resolvable feature of about $30\text{ \mu m}$. This is close to the measured acuity limit of human vision — diffraction by the pupil is among the fundamental physical constraints on visual sharpness.
+As a concrete illustration, the pupil of the human eye in daylight has a diameter of roughly $D \approx 5\text{mm}$. For green light ($\lambda = 532\text{nm}$), the Rayleigh criterion gives $\theta_R \approx 1.3 \times 10^{-4}\text{rad} \approx 0.007°$. At a comfortable reading distance of $25\text{cm}$, this corresponds to a minimum resolvable feature of about $30\mu\text{m}$. This is close to the measured acuity limit of human vision — diffraction by the pupil is among the fundamental physical constraints on visual sharpness.
 
 ## Diffraction gratings
 
