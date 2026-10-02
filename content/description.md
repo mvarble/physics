@@ -1,1 +1,2 @@
-What this site is for, in a paragraph or two. This text opens the home page, above the map of every concept and writeup. It is ordinary markdown: it can link to [a concept](./concepts/wave-nature-of-light/) and use math like $e^{i\pi} = -1$.
+An index of physics concepts, each explained on its own terms and linked to the ideas it depends on.
+The documents can be read in any order or followed along the dependency map below.
